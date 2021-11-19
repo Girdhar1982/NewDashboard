@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load("current", { packages: ["corechart, bar"] });
+        google.charts.setOnLoadCallback(drawChart);
+        google.charts.setOnLoadCallback(drawChart1);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Work', 11],
+                ['Eat', 2],
+                ['Commute', 2],
+                ['Watch TV', 2],
+                ['Sleep', 7]
+            ]);
+
+            var options = {
+                title: 'My Daily Activities',
+                is3D: true,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+            chart.draw(data, options);
+        }
+
+      function drawChart1() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Sales', 'Expenses', 'Profit', 'Assets'],
+          ['1', 1000, 400, 200, 300],
+          ['2', 1170, 460, 250, 600],
+          ['3', 660, 1120, 300, 200],
+          ['4', 1030, 540, 350, 125],
+          ['5', 1030, 540, 350, 125],
+          ['6', 1030, 540, 350, 125],
+          ['7', 1030, 540, 350, 125]
+        ]);
+
+        var options = {
+          chart: {
+            title: 'Combined Calls',
+            subtitle: 'Calls between 08:00 AM-05:00 PM',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="Company-logo">
+                <img src="icons/gap-cloud.png" alt="Gapcloud logo">
+            </div>
+            <div class="company-name">
+                <h1>Gapcloud Services</h1>
+            </div>
+            <div class="date-info">
+                <p>06:00 PM <br>Monday, Nov 8</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="services-section">
+                <div class="upper-queues">
+                    <div class="queue-1-wrapper">
+                        <div class="queue-1-bg">
+                            <div class="queue-1-header">
+                                <p>ICT Help Desk Support</p>
+                            </div>
+                            <div class="queue-1">
+                                <div class="queue-1-content-left">
+                                    <p class="paragraph-1">Calls Waiting</p>
+                                    <p class="paragraph-2">23</p>
+                                    <p class="paragraph-3">longest wait</p>
+                                    <p class="paragraph-4">02:30</p>
+                                </div>
+                                <div class="queue-1-content-middle">
+                                    <img src="icons/group.png" alt="Total Agents" class="icon-1">
+                                    <p class=" icon-1-text">30</p>
+                                    <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
+                                    <p class=" icon-2-text">23</p>
+                                    <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
+                                    <p class=" icon-3-text">17</p>
+                                    <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
+                                    <p class=" icon-4-text">66</p>
+                                    <p class="paragraph-5">SLA</p>
+                                    <p class="paragraph-6">99%</p>
+                                    <p class="paragraph-7">Avg. Q. Time</p>
+                                    <p class="paragraph-8">00:23</p>
+                                </div>
+                                <div class="queue-1-content-right">
+                                    <p class="paragraph-9">Total Calls</p>
+                                    <p class="paragraph-10">12</p>
+                                    <p class="paragraph-11">T. Talk Time</p>
+                                    <p class="paragraph-12">03:57:36</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="queue-2-wrapper">
+                        <div class="queue-2-bg">
+                            <div class="queue-2-header">
+                                <p>Sale and Account Support</p>
+                            </div>
+                            <div class="queue-2">
+                                <div class="queue-2-content-left">
+                                    <p class="paragraph-1">Calls Waiting</p>
+                                    <p class="paragraph-2">23</p>
+                                    <p class="paragraph-3">longest wait</p>
+                                    <p class="paragraph-4">02:30</p>
+                                </div>
+                                <div class="queue-2-content-middle">
+                                    <img src="icons/group.png" alt="Total Agents" class="icon-1">
+                                    <p class=" icon-1-text">30</p>
+                                    <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
+                                    <p class=" icon-2-text">23</p>
+                                    <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
+                                    <p class=" icon-3-text">17</p>
+                                    <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
+                                    <p class=" icon-4-text">66</p>
+                                    <p class="paragraph-5">SLA</p>
+                                    <p class="paragraph-6">99%</p>
+                                    <p class="paragraph-7">Avg. Q. Time</p>
+                                    <p class="paragraph-8">00:23</p>
+                                </div>
+                                <div class="queue-2-content-right">
+                                    <p class="paragraph-9">Total Calls</p>
+                                    <p class="paragraph-10">12</p>
+                                    <p class="paragraph-11">T. Talk Time</p>
+                                    <p class="paragraph-12">03:57:36</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lower-queues">
+                    <div class="queue-3-wrapper">
+                        <div class="queue-3-bg">
+                            <div class="queue-3-header">
+                                <p>General Enquiries</p>
+                            </div>
+                            <div class="queue-3">
+                                <div class="queue-3-content-left">
+                                    <p class="paragraph-1">Calls Waiting</p>
+                                    <p class="paragraph-2">23</p>
+                                    <p class="paragraph-3">longest wait</p>
+                                    <p class="paragraph-4">02:30</p>
+                                </div>
+                                <div class="queue-3-content-middle">
+                                    <img src="icons/group.png" alt="Total Agents" class="icon-1">
+                                    <p class=" icon-1-text">30</p>
+                                    <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
+                                    <p class=" icon-2-text">23</p>
+                                    <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
+                                    <p class=" icon-3-text">17</p>
+                                    <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
+                                    <p class=" icon-4-text">66</p>
+                                    <p class="paragraph-5">SLA</p>
+                                    <p class="paragraph-6">99%</p>
+                                    <p class="paragraph-7">Avg. Q. Time</p>
+                                    <p class="paragraph-8">00:23</p>
+                                </div>
+                                <div class="queue-3-content-right">
+                                    <p class="paragraph-9">Total Calls</p>
+                                    <p class="paragraph-10">12</p>
+                                    <p class="paragraph-11">T. Talk Time</p>
+                                    <p class="paragraph-12">03:57:36</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="queue-4-wrapper">
+                        <div class="queue-4-bg">
+                            <div class="queue-4-header">
+                                <p>VIP Support</p>
+                            </div>
+                            <div class="queue-4">
+                                <div class="queue-4-content-left">
+                                    <p class="paragraph-1">Calls Waiting</p>
+                                    <p class="paragraph-2">23</p>
+                                    <p class="paragraph-3">longest wait</p>
+                                    <p class="paragraph-4">02:30</p>
+                                </div>
+                                <div class="queue-4-content-middle">
+                                    <img src="icons/group.png" alt="Total Agents" class="icon-1">
+                                    <p class=" icon-1-text">30</p>
+                                    <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
+                                    <p class=" icon-2-text">23</p>
+                                    <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
+                                    <p class=" icon-3-text">17</p>
+                                    <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
+                                    <p class=" icon-4-text">66</p>
+                                    <p class="paragraph-5">SLA</p>
+                                    <p class="paragraph-6">99%</p>
+                                    <p class="paragraph-7">Avg. Q. Time</p>
+                                    <p class="paragraph-8">00:23</p>
+                                </div>
+                                <div class="queue-4-content-right">
+                                    <p class="paragraph-9">Total Calls</p>
+                                    <p class="paragraph-10">12</p>
+                                    <p class="paragraph-11">T. Talk Time</p>
+                                    <p class="paragraph-12">03:57:36</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="charts">
+                    <div class="piechart_3d-outer">
+                    <div id="piechart_3d"></div>
+                </div>
+                <div class="columnchart_material-outer">
+                    <div id="columnchart_material"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
