@@ -318,7 +318,7 @@ tr:nth-child(odd){
 }
 
 /* RESPONSIVE CODE */
-@media only screen and (min-width: 2300px) and(max-width: 2560px){
+@media only screen and (min-width: 2300px) and (max-width: 2560px){
   th {
     font-size: 35px;
 }
@@ -419,7 +419,7 @@ th {
   height: 100%;
 }
 }
-@media only screen and (min-width: 2000px) and(max-width: 2300px) {
+@media only screen and (min-width: 2000px) and (max-width: 2300px) {
   .paragraph-4, .paragraph-12 {
     font-size: 27px;
 }
@@ -443,7 +443,7 @@ th {
   top: 70%;
 }
 }
-@media only screen and (min-width: 1910px) and(max-width: 2000px){
+@media only screen and (min-width: 1910px) and (max-width: 2000px){
   .paragraph-1, .paragraph-9 {
     font-size: 28px;
 }
@@ -461,7 +461,7 @@ td img {
   font-size: 35px;
 }
 }
-@media only screen and (min-width: 1700px) and(max-width: 1910px){
+@media only screen and (min-width: 1700px) and (max-width: 1910px){
   .paragraph-1, .paragraph-9 {
     font-size: 21px;
     padding: 25px 0;
@@ -549,7 +549,7 @@ td {
   padding: 4px 0;
 }
 }
-@media only screen and (min-width: 624px) and(max-width: 720px){
+@media only screen and (min-width: 624px) and (max-width: 720px){
   .date-info p {
     font-size: 20px;
 }
@@ -570,7 +570,7 @@ td {
   display: block;
 }
 }
-@media only screen and (min-width: 480px) and(max-width: 624px){
+@media only screen and (min-width: 480px) and (max-width: 624px){
 .company-logo img{
   width: 120px;
 }
@@ -613,7 +613,7 @@ td {
   width: 100%;
 }
 }
-@media only screen and (min-width: 320px) and(max-width: 480px){
+@media only screen and (min-width: 320px) and (max-width: 480px){
 .mobile-indicators {
     width: 80%;
 }
