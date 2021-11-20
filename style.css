@@ -36,7 +36,7 @@ body {
 }
 .table {
   width: 40%;
-  margin: 15px 20px;
+  margin: 15px 0px 0px 20px;
 }
 table {
   width: 100%;
@@ -147,6 +147,7 @@ tr:nth-child(odd){
 .queue-2-header p,
 .queue-3-header p,
 .queue-4-header p {
+  font-size: 20px;
   color: #fff;
   font-weight: 400;
   text-align: center;
@@ -216,13 +217,13 @@ tr:nth-child(odd){
   position: absolute;
   width: 25px;
   top: 25%;
-  left: 57%;
+  right: 35%;
 }
 .icon-4 {
   position: absolute;
   width: 25px;
   top: 51%;
-  left: 57%;
+  right: 35%;
 }
 .icon-1-text {
   position: absolute;
@@ -239,13 +240,13 @@ tr:nth-child(odd){
 .icon-3-text {
   position: absolute;
   top: 27%;
-  left: 67%;
+  right: 27%;
   color: #fff;
 }
 .icon-4-text {
   position: absolute;
   top: 51%;
-  left: 67%;
+  right: 27%;
   color: #fff;
 }
 .paragraph-5 {
@@ -316,13 +317,221 @@ tr:nth-child(odd){
   padding-bottom: 4px;
 }
 
-@media (max-width: 1080px){
+/* RESPONSIVE CODE */
+@media only screen and (min-width: 2300px) and(max-width: 2560px){
+  th {
+    font-size: 35px;
+}
+  td {
+    font-size: 30px;
+}
+  .company-logo img {
+    width: 250px;
+}
+  .date-info p {
+    font-size: 40px;
+}
+.header h1 {
+  font-size: 65px;
+}
+  .paragraph-1, .paragraph-9{
+    font-size: 30px;
+    padding: 45px 0;
+  }
+  .paragraph-2, .paragraph-10{
+    font-size: 65px;
+  }
+  .paragraph-3, .paragraph-11{
+    font-size: 25px;
+    padding: 20px 0;
+  }
+  .paragraph-4, .paragraph-12{
+    font-size: 35px;
+  }
+  .paragraph-5, .paragraph-6, .paragraph-7, .paragraph-8{
+    font-size: 25px;
+  }
+  .queue-indicators {
+    width: 100%;
+    margin: 50px 0;
+ }
+.upper-queues, .lower-queues, .charts {
+  height: 38%;
+}
+.queue-1-header p, .queue-2-header p, .queue-3-header p, .queue-4-header p {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+table {
+  height: 106%;
+}
+th {
+  height: 60px;
+}
+.icon-1, .icon-2, .icon-3, .icon-4{
+  width: 48px;
+  height: 48px;
+}
+.icon-1-text, .icon-2-text, .icon-3-text, .icon-4-text{
+  font-size: 35px;
+}
+.icon-1 {
+  top: 27%;
+  left: 39%;
+}
+.icon-2 {
+  top: 47%;
+  left: 39%;
+}
+.icon-3{
+  top: 28%;
+  right: 35%;
+}
+.icon-4{
+  top: 47%;
+  right: 35%;
+}
+.icon-1-text {
+  top: 28%;
+  left: 49%;
+}
+.icon-2-text {
+  top: 47%;
+  left: 49%;
+}
+.icon-3-text{
+  top: 28%;
+}
+.icon-4-text{
+  top: 47%;
+}
+.queue-indicators img {
+  width: 50px;
+}
+.queue-indicators ul li p {
+  padding-left: 8px;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+}
+@media only screen and (min-width: 2000px) and(max-width: 2300px) {
+  .paragraph-4, .paragraph-12 {
+    font-size: 27px;
+}
+.paragraph-1, .paragraph-9 {
+  padding: 35px 0;
+}
+.queue-indicators ul li p {
+  font-size: 28px;
+}
+.icon-1, .icon-2, .icon-3, .icon-4 {
+  width: 40px;
+  height: 40px;
+}
+.icon-1-text, .icon-2-text, .icon-3-text, .icon-4-text {
+  font-size: 30px;
+}
+.paragraph-5{
+  top: 70%;
+}
+.paragraph-7{
+  top: 70%;
+}
+}
+@media only screen and (min-width: 1910px) and(max-width: 2000px){
+  .paragraph-1, .paragraph-9 {
+    font-size: 28px;
+}
+td {
+  font-size: 25px;
+  padding: 0;
+}
+th {
+  padding: 0%;
+}
+td img {  
+  padding: 15px;
+}
+.queue-1-header p, .queue-2-header p, .queue-3-header p, .queue-4-header p {
+  font-size: 35px;
+}
+}
+@media only screen and (min-width: 1700px) and(max-width: 1910px){
+  .paragraph-1, .paragraph-9 {
+    font-size: 21px;
+    padding: 25px 0;
+}
+.paragraph-3, .paragraph-11 {
+  font-size: 21px;
+  padding: 15px 0;
+}
+.paragraph-2, .paragraph-10 {
+  font-size: 45px;
+}
+.paragraph-5, .paragraph-6, .paragraph-7, .paragraph-8 {
+  font-size: 20px;
+}
+.upper-queues, .lower-queues, .charts {
+  height: 32%;
+}
+table {
+  height: 98%;
+}
+.icon-1-text, .icon-2-text, .icon-3-text, .icon-4-text {
+  font-size: 25px;
+}
+.icon-1, .icon-2, .icon-3, .icon-4 {
+  width: 35px;
+  height: 35px;
+}
+th {
+  font-size: 28px;
+}
+}
+@media only screen and (min-width: 1440px) and (max-width: 1700px){
+  .upper-queues, .lower-queues, .charts {
+    height: 28%;
+}
+.queue-indicators img {
+  width: 30px;
+}
+.queue-indicators ul li p {
+  font-size: 23px;
+}
+.paragraph-1, .paragraph-9 {
+  font-size: 18px;
+  padding: 16px 0;
+}
+.paragraph-3, .paragraph-11 {
+  font-size: 18px;
+}
+.paragraph-4, .paragraph-12 {
+  font-size: 23px;
+}
+.queue-1-header p, .queue-2-header p, .queue-3-header p, .queue-4-header p {
+  font-size: 23px;
+}
+td {
+  font-size: 20px;
+}
+}
+@media only screen and (min-width: 1080px) and (max-width: 1440px){
+  .queue-1-header p, .queue-2-header p, .queue-3-header p, .queue-4-header p {
+    font-size: 23px;
+}
+}
+@media only screen and (min-width: 720px) and(max-width: 1080px){
   .services-section {
     width: 100%;
   }
   .table {
     width: 100%;
-    margin: 10px 20px;
+    margin: 10px 0px;
 }
 .main-container{
   display: block;
@@ -339,20 +548,8 @@ tr:nth-child(odd){
 .paragraph-11{
   padding: 4px 0;
 }
-.icon-3{
-  left: 59%;
 }
-.icon-4{
-  left: 59%;
-}
-.icon-3-text{
-  left: 69%;
-}
-.icon-4-text{
-  left: 69%;
-}
-}
-@media (max-width: 720px){
+@media only screen and (min-width: 624px) and(max-width: 720px){
   .date-info p {
     font-size: 20px;
 }
@@ -372,20 +569,8 @@ tr:nth-child(odd){
 .upper-queues, .lower-queues, .charts{
   display: block;
 }
-.icon-3{
-  left: 60%;
 }
-.icon-4{
-  left: 60%;
-}
-.icon-3-text{
-  left: 70%;
-}
-.icon-4-text{
-  left: 70%;
-}
-}
-@media (max-width: 624px){
+@media only screen and (min-width: 480px) and(max-width: 624px){
 .company-logo img{
   width: 120px;
 }
@@ -428,7 +613,7 @@ tr:nth-child(odd){
   width: 100%;
 }
 }
-@media (max-width: 480px){
+@media only screen and (min-width: 320px) and(max-width: 480px){
 .mobile-indicators {
     width: 80%;
 }
