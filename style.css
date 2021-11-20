@@ -626,16 +626,6 @@ tr:nth-child(odd) {
   }
 }
 @media (max-width: 720px) {
-  .main-container {
-    display: block;
-  }
-  .services-section {
-    width: 100%;
-  }
-  .table {
-    width: 100%;
-    margin: 10px 0px;
-  }
   .date-info p {
     font-size: 20px;
   }
@@ -676,15 +666,13 @@ tr:nth-child(odd) {
   }
 }
 @media (max-width: 624px) {
-  .main-container {
-    display: block;
+  th {
+    padding: 4px 3px;
+    font-size: 14px;
   }
-  .services-section {
-    width: 100%;
-  }
-  .table {
-    width: 100%;
-    margin: 10px 0px;
+  td {
+    padding: 4px 3px;
+    font-size: 12px;
   }
   .company-logo img {
     width: 120px;
@@ -729,15 +717,16 @@ tr:nth-child(odd) {
   }
 }
 @media (max-width: 480px) {
-  .main-container {
-    display: block;
+  th {
+    padding: 4px 0px;
+    font-size: 12px;
   }
-  .services-section {
-    width: 100%;
+  td {
+    padding: 4px 3px;
+    font-size: 8px;
   }
-  .table {
-    width: 100%;
-    margin: 10px 0px;
+  td img {
+    width: 6px;
   }
   .mobile-indicators {
     width: 80%;

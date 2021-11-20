@@ -36,29 +36,29 @@
             chart.draw(data, options);
         }
 
-      function drawChart1() {
-        var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sales', 'Expenses', 'Profit', 'Assets'],
-          ['1', 1000, 400, 200, 300],
-          ['2', 1170, 460, 250, 600],
-          ['3', 660, 1120, 300, 200],
-          ['4', 1030, 540, 350, 125],
-          ['5', 1030, 540, 350, 125],
-          ['6', 1030, 540, 350, 125],
-          ['7', 1030, 540, 350, 125]
-        ]);
+        function drawChart1() {
+            var data = google.visualization.arrayToDataTable([
+                ['Year', 'Sales', 'Expenses', 'Profit', 'Assets'],
+                ['1', 1000, 400, 200, 300],
+                ['2', 1170, 460, 250, 600],
+                ['3', 660, 1120, 300, 200],
+                ['4', 1030, 540, 350, 125],
+                ['5', 1030, 540, 350, 125],
+                ['6', 1030, 540, 350, 125],
+                ['7', 1030, 540, 350, 125]
+            ]);
 
-        var options = {
-          chart: {
-            title: 'Combined Calls',
-            subtitle: 'Calls between 08:00 AM-05:00 PM',
-          }
-        };
+            var options = {
+                chart: {
+                    title: 'Combined Calls',
+                    subtitle: 'Calls between 08:00 AM-05:00 PM',
+                }
+            };
 
-        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+            var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
 
-        chart.draw(data, options);
-      }
+            chart.draw(data, options);
+        }
     </script>
 
 </head>
@@ -78,382 +78,382 @@
         </div>
         <div class="container">
             <div class="main-container">
-            <div class="services-section">
-                <div class="upper-queues">
-                    <div class="queue-1-wrapper">
-                        <div class="queue-1-bg">
-                            <div class="queue-1-header">
-                                <p>ICT Help Desk Support</p>
+                <div class="services-section">
+                    <div class="upper-queues">
+                        <div class="queue-1-wrapper">
+                            <div class="queue-1-bg">
+                                <div class="queue-1-header">
+                                    <p>ICT Help Desk Support</p>
+                                </div>
+                                <div class="queue-1">
+                                    <div class="queue-1-content-left">
+                                        <p class="paragraph-1">Calls Waiting</p>
+                                        <p class="paragraph-2">23</p>
+                                        <p class="paragraph-3">longest wait</p>
+                                        <p class="paragraph-4">02:30</p>
+                                    </div>
+                                    <div class="queue-1-content-middle">
+                                        <img src="icons/group.png" alt="Total Agents" class="icon-1">
+                                        <p class=" icon-1-text">30</p>
+                                        <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
+                                        <p class=" icon-2-text">23</p>
+                                        <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
+                                        <p class=" icon-3-text">17</p>
+                                        <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
+                                        <p class=" icon-4-text">66</p>
+                                        <p class="paragraph-5">SLA</p>
+                                        <p class="paragraph-6">99%</p>
+                                        <p class="paragraph-7">Avg. Q. Time</p>
+                                        <p class="paragraph-8">00:23</p>
+                                    </div>
+                                    <div class="queue-1-content-right">
+                                        <p class="paragraph-9">Total Calls</p>
+                                        <p class="paragraph-10">12</p>
+                                        <p class="paragraph-11">T. Talk Time</p>
+                                        <p class="paragraph-12">03:57:36</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="queue-1">
-                                <div class="queue-1-content-left">
-                                    <p class="paragraph-1">Calls Waiting</p>
-                                    <p class="paragraph-2">23</p>
-                                    <p class="paragraph-3">longest wait</p>
-                                    <p class="paragraph-4">02:30</p>
+                        </div>
+                        <div class="queue-2-wrapper">
+                            <div class="queue-2-bg">
+                                <div class="queue-2-header">
+                                    <p>Sale and Account Support</p>
                                 </div>
-                                <div class="queue-1-content-middle">
-                                    <img src="icons/group.png" alt="Total Agents" class="icon-1">
-                                    <p class=" icon-1-text">30</p>
-                                    <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
-                                    <p class=" icon-2-text">23</p>
-                                    <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
-                                    <p class=" icon-3-text">17</p>
-                                    <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
-                                    <p class=" icon-4-text">66</p>
-                                    <p class="paragraph-5">SLA</p>
-                                    <p class="paragraph-6">99%</p>
-                                    <p class="paragraph-7">Avg. Q. Time</p>
-                                    <p class="paragraph-8">00:23</p>
-                                </div>
-                                <div class="queue-1-content-right">
-                                    <p class="paragraph-9">Total Calls</p>
-                                    <p class="paragraph-10">12</p>
-                                    <p class="paragraph-11">T. Talk Time</p>
-                                    <p class="paragraph-12">03:57:36</p>
+                                <div class="queue-2">
+                                    <div class="queue-2-content-left">
+                                        <p class="paragraph-1">Calls Waiting</p>
+                                        <p class="paragraph-2">23</p>
+                                        <p class="paragraph-3">longest wait</p>
+                                        <p class="paragraph-4">02:30</p>
+                                    </div>
+                                    <div class="queue-2-content-middle">
+                                        <img src="icons/group.png" alt="Total Agents" class="icon-1">
+                                        <p class=" icon-1-text">30</p>
+                                        <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
+                                        <p class=" icon-2-text">23</p>
+                                        <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
+                                        <p class=" icon-3-text">17</p>
+                                        <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
+                                        <p class=" icon-4-text">66</p>
+                                        <p class="paragraph-5">SLA</p>
+                                        <p class="paragraph-6">99%</p>
+                                        <p class="paragraph-7">Avg. Q. Time</p>
+                                        <p class="paragraph-8">00:23</p>
+                                    </div>
+                                    <div class="queue-2-content-right">
+                                        <p class="paragraph-9">Total Calls</p>
+                                        <p class="paragraph-10">12</p>
+                                        <p class="paragraph-11">T. Talk Time</p>
+                                        <p class="paragraph-12">03:57:36</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="queue-2-wrapper">
-                        <div class="queue-2-bg">
-                            <div class="queue-2-header">
-                                <p>Sale and Account Support</p>
-                            </div>
-                            <div class="queue-2">
-                                <div class="queue-2-content-left">
-                                    <p class="paragraph-1">Calls Waiting</p>
-                                    <p class="paragraph-2">23</p>
-                                    <p class="paragraph-3">longest wait</p>
-                                    <p class="paragraph-4">02:30</p>
-                                </div>
-                                <div class="queue-2-content-middle">
-                                    <img src="icons/group.png" alt="Total Agents" class="icon-1">
-                                    <p class=" icon-1-text">30</p>
-                                    <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
-                                    <p class=" icon-2-text">23</p>
-                                    <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
-                                    <p class=" icon-3-text">17</p>
-                                    <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
-                                    <p class=" icon-4-text">66</p>
-                                    <p class="paragraph-5">SLA</p>
-                                    <p class="paragraph-6">99%</p>
-                                    <p class="paragraph-7">Avg. Q. Time</p>
-                                    <p class="paragraph-8">00:23</p>
-                                </div>
-                                <div class="queue-2-content-right">
-                                    <p class="paragraph-9">Total Calls</p>
-                                    <p class="paragraph-10">12</p>
-                                    <p class="paragraph-11">T. Talk Time</p>
-                                    <p class="paragraph-12">03:57:36</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="queue-indicators">
+                        <ul>
+                            <li>
+                                <img src="icons/group.png" alt="T. Agents">
+                                <p>T. Agents</p>
+                            </li>
+                            <li>
+                                <img src="icons/live-chat.png" alt="Agents Available">
+                                <p>Agents Available</p>
+                            </li>
+                            <li>
+                                <img src="icons/no-calls.png" alt="Abandoned Calls">
+                                <p>Abandoned Calls</p>
+                            </li>
+                            <li>
+                                <img src="icons/answer-phone.png" alt="Answered Calls">
+                                <p>Answered Calls</p>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="queue-indicators">
-                    <ul>
-                        <li>
-                            <img src="icons/group.png" alt="T. Agents">
-                            <p>T. Agents</p>
-                        </li>
-                        <li>
-                            <img src="icons/live-chat.png" alt="Agents Available">
-                            <p>Agents Available</p>
-                        </li>
-                        <li>
-                            <img src="icons/no-calls.png" alt="Abandoned Calls">
-                            <p>Abandoned Calls</p>
-                        </li>
-                        <li>
-                            <img src="icons/answer-phone.png" alt="Answered Calls">
-                            <p>Answered Calls</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="mobile-indicators">
-                    <ul class="upper-indicators">
-                        <li>
-                            <img src="icons/group.png" alt="T. Agents">
-                            <p>T. Agents</p>
-                        </li>
-                        <li>
-                            <img src="icons/live-chat.png" alt="Agents Available">
-                            <p>Agents Available</p>
-                        </li>
-                    </ul>
+                    <div class="mobile-indicators">
+                        <ul class="upper-indicators">
+                            <li>
+                                <img src="icons/group.png" alt="T. Agents">
+                                <p>T. Agents</p>
+                            </li>
+                            <li>
+                                <img src="icons/live-chat.png" alt="Agents Available">
+                                <p>Agents Available</p>
+                            </li>
+                        </ul>
                         <ul class="lower-indicators">
-                        <li>
-                            <img src="icons/no-calls.png" alt="Abandoned Calls">
-                            <p>Abandoned Calls</p>
-                        </li>
-                        <li>
-                            <img src="icons/answer-phone.png" alt="Answered Calls">
-                            <p>Answered Calls</p>
-                        </li>
-                    </ul>
-                </div>
-                
-                <div class="lower-queues">
-                    <div class="queue-3-wrapper">
-                        <div class="queue-3-bg">
-                            <div class="queue-3-header">
-                                <p>General Enquiries</p>
-                            </div>
-                            <div class="queue-3">
-                                <div class="queue-3-content-left">
-                                    <p class="paragraph-1">Calls Waiting</p>
-                                    <p class="paragraph-2">23</p>
-                                    <p class="paragraph-3">longest wait</p>
-                                    <p class="paragraph-4">02:30</p>
+                            <li>
+                                <img src="icons/no-calls.png" alt="Abandoned Calls">
+                                <p>Abandoned Calls</p>
+                            </li>
+                            <li>
+                                <img src="icons/answer-phone.png" alt="Answered Calls">
+                                <p>Answered Calls</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="lower-queues">
+                        <div class="queue-3-wrapper">
+                            <div class="queue-3-bg">
+                                <div class="queue-3-header">
+                                    <p>General Enquiries</p>
                                 </div>
-                                <div class="queue-3-content-middle">
-                                    <img src="icons/group.png" alt="Total Agents" class="icon-1">
-                                    <p class=" icon-1-text">30</p>
-                                    <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
-                                    <p class=" icon-2-text">23</p>
-                                    <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
-                                    <p class=" icon-3-text">17</p>
-                                    <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
-                                    <p class=" icon-4-text">66</p>
-                                    <p class="paragraph-5">SLA</p>
-                                    <p class="paragraph-6">99%</p>
-                                    <p class="paragraph-7">Avg. Q. Time</p>
-                                    <p class="paragraph-8">00:23</p>
-                                </div>
-                                <div class="queue-3-content-right">
-                                    <p class="paragraph-9">Total Calls</p>
-                                    <p class="paragraph-10">12</p>
-                                    <p class="paragraph-11">T. Talk Time</p>
-                                    <p class="paragraph-12">03:57:36</p>
+                                <div class="queue-3">
+                                    <div class="queue-3-content-left">
+                                        <p class="paragraph-1">Calls Waiting</p>
+                                        <p class="paragraph-2">23</p>
+                                        <p class="paragraph-3">longest wait</p>
+                                        <p class="paragraph-4">02:30</p>
+                                    </div>
+                                    <div class="queue-3-content-middle">
+                                        <img src="icons/group.png" alt="Total Agents" class="icon-1">
+                                        <p class=" icon-1-text">30</p>
+                                        <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
+                                        <p class=" icon-2-text">23</p>
+                                        <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
+                                        <p class=" icon-3-text">17</p>
+                                        <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
+                                        <p class=" icon-4-text">66</p>
+                                        <p class="paragraph-5">SLA</p>
+                                        <p class="paragraph-6">99%</p>
+                                        <p class="paragraph-7">Avg. Q. Time</p>
+                                        <p class="paragraph-8">00:23</p>
+                                    </div>
+                                    <div class="queue-3-content-right">
+                                        <p class="paragraph-9">Total Calls</p>
+                                        <p class="paragraph-10">12</p>
+                                        <p class="paragraph-11">T. Talk Time</p>
+                                        <p class="paragraph-12">03:57:36</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="queue-4-wrapper">
-                        <div class="queue-4-bg">
-                            <div class="queue-4-header">
-                                <p>VIP Support</p>
-                            </div>
-                            <div class="queue-4">
-                                <div class="queue-4-content-left">
-                                    <p class="paragraph-1">Calls Waiting</p>
-                                    <p class="paragraph-2">23</p>
-                                    <p class="paragraph-3">longest wait</p>
-                                    <p class="paragraph-4">02:30</p>
+                        <div class="queue-4-wrapper">
+                            <div class="queue-4-bg">
+                                <div class="queue-4-header">
+                                    <p>VIP Support</p>
                                 </div>
-                                <div class="queue-4-content-middle">
-                                    <img src="icons/group.png" alt="Total Agents" class="icon-1">
-                                    <p class=" icon-1-text">30</p>
-                                    <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
-                                    <p class=" icon-2-text">23</p>
-                                    <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
-                                    <p class=" icon-3-text">17</p>
-                                    <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
-                                    <p class=" icon-4-text">66</p>
-                                    <p class="paragraph-5">SLA</p>
-                                    <p class="paragraph-6">99%</p>
-                                    <p class="paragraph-7">Avg. Q. Time</p>
-                                    <p class="paragraph-8">00:23</p>
-                                </div>
-                                <div class="queue-4-content-right">
-                                    <p class="paragraph-9">Total Calls</p>
-                                    <p class="paragraph-10">12</p>
-                                    <p class="paragraph-11">T. Talk Time</p>
-                                    <p class="paragraph-12">03:57:36</p>
+                                <div class="queue-4">
+                                    <div class="queue-4-content-left">
+                                        <p class="paragraph-1">Calls Waiting</p>
+                                        <p class="paragraph-2">23</p>
+                                        <p class="paragraph-3">longest wait</p>
+                                        <p class="paragraph-4">02:30</p>
+                                    </div>
+                                    <div class="queue-4-content-middle">
+                                        <img src="icons/group.png" alt="Total Agents" class="icon-1">
+                                        <p class=" icon-1-text">30</p>
+                                        <img src="icons/live-chat.png" alt="Agents Available" class="icon-2">
+                                        <p class=" icon-2-text">23</p>
+                                        <img src="icons/no-calls.png" alt="Abandoned Calls" class="icon-3">
+                                        <p class=" icon-3-text">17</p>
+                                        <img src="icons/answer-phone.png" alt="Answered Calls" class="icon-4">
+                                        <p class=" icon-4-text">66</p>
+                                        <p class="paragraph-5">SLA</p>
+                                        <p class="paragraph-6">99%</p>
+                                        <p class="paragraph-7">Avg. Q. Time</p>
+                                        <p class="paragraph-8">00:23</p>
+                                    </div>
+                                    <div class="queue-4-content-right">
+                                        <p class="paragraph-9">Total Calls</p>
+                                        <p class="paragraph-10">12</p>
+                                        <p class="paragraph-11">T. Talk Time</p>
+                                        <p class="paragraph-12">03:57:36</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
-                
+                    <div class="charts">
+                        <div class="piechart_3d-outer">
+                            <div id="piechart_3d"></div>
+                        </div>
+                        <div class="columnchart_material-outer">
+                            <div id="columnchart_material"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="charts">
-                    <div class="piechart_3d-outer">
-                    <div id="piechart_3d"></div>
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Name</th>
+                                <th>Duration</th>
+                                <th>State</th>
+                                <th>Reason</th>
+                                <th>Service</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="icons/green-dot.svg" alt="Available"></td>
+                                <td>Jugal</td>
+                                <td>01:03</td>
+                                <td>Available</td>
+                                <td>Available</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/green-dot.svg" alt="Available"></td>
+                                <td>Daniel</td>
+                                <td>00:52</td>
+                                <td>Available</td>
+                                <td>Available</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/red-dot.svg" alt="Busy"></td>
+                                <td>Barbara</td>
+                                <td>03:23</td>
+                                <td>Busy</td>
+                                <td>On Call</td>
+                                <td>G.Enquiries</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/red-dot.svg" alt="Busy"></td>
+                                <td>Stuart</td>
+                                <td>12:03</td>
+                                <td>Busy</td>
+                                <td>On Call</td>
+                                <td>Sales Acc.</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/orange-dot.svg" alt="Break"></td>
+                                <td>Robin</td>
+                                <td>15:05</td>
+                                <td>Break</td>
+                                <td>Fr. Desk</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/orange-dot.svg" alt="Break"></td>
+                                <td>Scott</td>
+                                <td>29:11</td>
+                                <td>Break</td>
+                                <td>S. Break</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/orange-dot.svg" alt="Break"></td>
+                                <td>Steven</td>
+                                <td>05:12</td>
+                                <td>Break</td>
+                                <td>Eve Tea</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/orange-dot.svg" alt="Break"></td>
+                                <td>Vara</td>
+                                <td>00:40</td>
+                                <td>Break</td>
+                                <td>Admin</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>Richard</td>
+                                <td>N/A</td>
+                                <td>Offline</td>
+                                <td>Offline</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>John</td>
+                                <td>N/A</td>
+                                <td>Offline</td>
+                                <td>Offline</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>Litau</td>
+                                <td>N/A</td>
+                                <td>Offline</td>
+                                <td>Offline</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>Remi</td>
+                                <td>N/A</td>
+                                <td>Offline</td>
+                                <td>Offline</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>Joanne</td>
+                                <td>N/A</td>
+                                <td>Offline</td>
+                                <td>Offline</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>Nick</td>
+                                <td>N/A</td>
+                                <td>Offline</td>
+                                <td>Offline</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>Abbie</td>
+                                <td>N/A</td>
+                                <td>Offline</td>
+                                <td>Offline</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>Maeve</td>
+                                <td>N/A</td>
+                                <td>Offline</td>
+                                <td>Offline</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>Shanaya</td>
+                                <td>N/A</td>
+                                <td>Offline</td>
+                                <td>Offline</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><img src="icons/grey-dot.svg" alt="Offline"></td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="columnchart_material-outer">
-                    <div id="columnchart_material"></div>
-                </div>
-                </div>
-            </div>
-            <div class="table">
-                <table>
-                    <thead>
-                <tr>
-                    <th></th>
-                    <th>Name</th>
-                    <th>Duration</th>
-                    <th>State</th>
-                    <th>Reason</th>
-                    <th>Service</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><img src="icons/green-dot.svg" alt="Available"></td>
-                    <td>Jugal</td>
-                    <td>01:03</td>
-                    <td>Available</td>
-                    <td>Available</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/green-dot.svg" alt="Available"></td>
-                    <td>Daniel</td>
-                    <td>00:52</td>
-                    <td>Available</td>
-                    <td>Available</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/red-dot.svg" alt="Busy"></td>
-                    <td>Barbara</td>
-                    <td>03:23</td>
-                    <td>Busy</td>
-                    <td>On Call</td>
-                    <td>G.Enquiries</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/red-dot.svg" alt="Busy"></td>
-                    <td>Stuart</td>
-                    <td>12:03</td>
-                    <td>Busy</td>
-                    <td>On Call</td>
-                    <td>Sales Acc.</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/orange-dot.svg" alt="Break"></td>
-                    <td>Robin</td>
-                    <td>15:05</td>
-                    <td>Break</td>
-                    <td>Fr. Desk</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/orange-dot.svg" alt="Break"></td>
-                    <td>Scott</td>
-                    <td>29:11</td>
-                    <td>Break</td>
-                    <td>S. Break</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/orange-dot.svg" alt="Break"></td>
-                    <td>Steven</td>
-                    <td>05:12</td>
-                    <td>Break</td>
-                    <td>Eve Tea</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/orange-dot.svg" alt="Break"></td>
-                    <td>Vara</td>
-                    <td>00:40</td>
-                    <td>Break</td>
-                    <td>Admin</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>Richard</td>
-                    <td>N/A</td>
-                    <td>Offline</td>
-                    <td>Offline</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>John</td>
-                    <td>N/A</td>
-                    <td>Offline</td>
-                    <td>Offline</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>Litau</td>
-                    <td>N/A</td>
-                    <td>Offline</td>
-                    <td>Offline</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>Remi</td>
-                    <td>N/A</td>
-                    <td>Offline</td>
-                    <td>Offline</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>Joanne</td>
-                    <td>N/A</td>
-                    <td>Offline</td>
-                    <td>Offline</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>Nick</td>
-                    <td>N/A</td>
-                    <td>Offline</td>
-                    <td>Offline</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>Abbie</td>
-                    <td>N/A</td>
-                    <td>Offline</td>
-                    <td>Offline</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>Maeve</td>
-                    <td>N/A</td>
-                    <td>Offline</td>
-                    <td>Offline</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>Shanaya</td>
-                    <td>N/A</td>
-                    <td>Offline</td>
-                    <td>Offline</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td><img src="icons/grey-dot.svg" alt="Offline"></td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                </tr>
-            </tbody>
-            </table>    
             </div>
         </div>
-    </div>
     </div>
 </body>
 
