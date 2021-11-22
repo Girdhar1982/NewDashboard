@@ -767,7 +767,12 @@ tr:nth-child(odd) {
   .header h1 {
     font-size: 20px;
   }
-  #piechart_3d, #columnchart_material {
-    height: 150px;
+
+  #piechart_3d-outer,
+#columnchart_material-outer {
+  padding-bottom: 40%;
+}
+#piechart_3d, #columnchart_material {
+  height: 200px;
 }
 }
